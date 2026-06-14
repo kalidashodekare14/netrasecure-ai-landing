@@ -23,9 +23,15 @@ app.use("/contact", contactRouter);
 app.use("/scan-url", scanUrlRouter);
 app.use("/chat", chatRouter);
 
+// Default Error handle
 app.use((err, req, res, next) => {
   console.error("Unhandled error:", err.message);
   res.status(500).json({ error: "Internal server error." });
+});
+
+// Routes not found handler
+app.use((_req, res) => {
+  res.status(404).json({ error: 'Route not found' });
 });
 
 app.listen(PORT, () => {
