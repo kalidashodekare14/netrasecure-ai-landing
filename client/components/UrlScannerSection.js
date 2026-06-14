@@ -101,7 +101,7 @@ export default function UrlScannerSection() {
               <button
                 onClick={handleScan}
                 disabled={loading}
-                className="inline-flex items-center justify-center gap-2 rounded-lg bg-neon-blue px-6 py-3.5 font-semibold text-black transition hover:brightness-110 disabled:opacity-50"
+                className="inline-flex items-center justify-center gap-2 cursor-pointer rounded-lg bg-neon-blue px-6 py-3.5 font-semibold text-black transition hover:brightness-110 disabled:opacity-50"
               >
                 {loading ? (
                   <FiLoader className="animate-spin" size={18} />
