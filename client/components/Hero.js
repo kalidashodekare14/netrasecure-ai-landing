@@ -23,8 +23,8 @@ export default function Hero() {
       className="relative flex min-h-screen items-center overflow-hidden px-4 pt-24 sm:px-6 lg:px-8"
     >
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 -right-40 h-[600px] w-[600px] rounded-full bg-neon-blue/10 blur-[120px]" />
-        <div className="absolute -bottom-40 -left-40 h-[500px] w-[500px] rounded-full bg-neon-orange/10 blur-[100px]" />
+        <div className="absolute -top-40 -right-40 h-150 w-150 rounded-full bg-neon-blue/10 blur-[120px]" />
+        <div className="absolute -bottom-40 -left-40 h-125 w-125 rounded-full bg-neon-orange/10 blur-[100px]" />
         {[...Array(30)].map((_, i) => (
           <div
             key={i}
