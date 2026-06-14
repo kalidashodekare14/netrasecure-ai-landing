@@ -71,7 +71,7 @@ export default function WhyChooseUs() {
               transition={{ duration: 0.4, delay: i * 0.1 }}
               className="group flex gap-5 rounded-xl border border-white/5 bg-dark-card p-6 transition-all duration-300 hover:border-neon-blue/20 hover:shadow-[0_0_25px_rgba(0,212,255,0.1)]"
             >
-              <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-neon-blue/10 text-neon-blue transition-colors group-hover:bg-neon-blue group-hover:text-black">
+              <div className="mt-1 flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-neon-blue/10 text-neon-blue transition-colors  group-hover:bg-neon-blue group-hover:text-black">
                 {item.icon}
               </div>
               <div>
